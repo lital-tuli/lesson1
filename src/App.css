@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -12,20 +12,46 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+/* 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  height: 400vh;
 }
 
 .App-link {
   color: #61dafb;
+}
+.cappyImg{
+  width: 100px;
+  height: 100px;
+  margin: 4px;
+}
+.navLink {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+
+}
+
+.navLink:hover {
+  background-color: #61dafb;
+  color: #282c34;
+} */
+.fa-brands{
+  margin: 4px;
+  color: #282c34;
+  font-size: 1.5rem;
+
 }
 
 @keyframes App-logo-spin {
