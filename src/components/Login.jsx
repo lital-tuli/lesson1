@@ -2,6 +2,11 @@ import { useFormik } from "formik";
 import * as yup from "yup";
 
 function Login() {
+
+
+
+
+  
   const formik = useFormik({
     initialValues: {
       email: "",
@@ -15,8 +20,9 @@ function Login() {
     .min(10, "Password too short! Should be at least 10 characters")
     .matches(/(?=.*[0-9])/, "Password must contain a number and special character"), 
     }),
-    onSubmit: (values) => {
+    onSubmit: (values , {resetForm}) => {
       console.log(values);
+      resetForm();
      
 
     },
